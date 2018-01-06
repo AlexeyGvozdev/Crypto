@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_crypto"
+        android:layout_alignParentLeft="true"
+        android:text="BTC"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/price_crypto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name_crypto"
+        android:layout_alignParentEnd="true"
+        android:text="25$"
+        android:textSize="30sp"/>
+
+
+
+
+</RelativeLayout>
